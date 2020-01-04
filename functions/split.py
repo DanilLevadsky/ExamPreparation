@@ -14,3 +14,5 @@ def split(string, pattern=' '):
 	while '' in array:
 		array.remove('')							
 	return array
+
+	
