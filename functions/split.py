@@ -1,4 +1,5 @@
 def split(string, pattern=' '):
+	''' analog of split method'''
 	arr = []
 	for s in string:
 		if s == pattern:
