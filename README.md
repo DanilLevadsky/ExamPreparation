@@ -1,1 +1,1 @@
-Preparation for OP exam (sessia bleat`)
+Preparation for OP exam
