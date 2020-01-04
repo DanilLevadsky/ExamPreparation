@@ -1,10 +1,10 @@
 def split(string, pattern=' '):
 	''' analog of split method'''
-	arr = []
+	array = []
 	for s in string:
 		if s == pattern:
-			arr.append(string[:string.index(s)])
+			array.append(string[:string.index(s)])
 			string = string[(string.index(s) + 1):]
 			if string.count(pattern) == 0:
-				arr.append(string)	
-	return arr
+				array.append(string)	
+	return array
