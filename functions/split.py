@@ -13,10 +13,6 @@ def split(string, pattern=' '):
 				if elem == '':
 					array.remove(elem)
 		elif len(pattern) > 1:
-			if string[:len(pattern)-1] == pattern:
-				string = string[len(pattern):]
-			elif string[-len(pattern):] == pattern:
-				string = string[:-len(pattern)]
 			while pattern in string:	
 				index = string.find(pattern)
 				array.append(string[:index])
