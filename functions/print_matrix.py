@@ -1,7 +1,7 @@
 def print_matrix(matrix, text=''):
 	print(text)
-	for x in matrix:
-		for y in x:
-			print('{:5}'.format(y), end='')
+	for row in matrix:
+		for elem in row:
+			print('{:5}'.format(elem), end='')
 		print()
 	print()		
