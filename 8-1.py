@@ -18,12 +18,11 @@ def main():
 	rows = int(input('number of rows in matrix: '))
 	columns = int(input('number of columns in matrix: '))
 	matrix = generate_matrix(min_val, max_val, rows, columns)
-	started_matrix = matrix
-	print_matrix(matrix, 'Вихідна матриця')
+	print_matrix(matrix, 'Вихідна матриця\n')
 	sum_of_columns = columns_sum(matrix)
 	add_row(matrix, sum_of_columns)
 	add_column(matrix)
-	print_matrix(matrix, "Кінцева матриця")
+	print_matrix(matrix, "Кінцева матриця\n")
 
 
 if __name__ == '__main__':
