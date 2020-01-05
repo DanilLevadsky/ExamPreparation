@@ -26,4 +26,11 @@ def length_of_arr(arr):
 	count = 0
 	for elem in arr:
 		count += 1
-	return count	
+	return count
+	
+
+def string_to_char_list(string):
+	arr = []
+	for char in string:
+		arr.append(char)
+	return arr			
