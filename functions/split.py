@@ -16,3 +16,8 @@ def split(string, pattern=' '):
 	return array
 
 	
+def length_of_string(string):
+	count = 0
+	for	char in string:
+		count += 1
+	return count
