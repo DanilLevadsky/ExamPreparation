@@ -21,3 +21,9 @@ def length_of_string(string):
 	for	char in string:
 		count += 1
 	return count
+
+def length_of_arr(arr):
+	count = 0
+	for elem in arr:
+		count += 1
+	return count	
