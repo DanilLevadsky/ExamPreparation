@@ -8,6 +8,7 @@ def string_isdigit(string):
 		return True
 	else: return False	
 
+
 def string_isalpha(string):
 	''' analog of isalpha(), checks if the
 		string consists only of letters'''
@@ -15,3 +16,11 @@ def string_isalpha(string):
 	if all([('a' <= char.lower() <= 'z') or ('а' <= char.lower() <= 'я') for char in chars]):
 		return True
 	else: return False	
+
+
+def join(array, separator=' '):
+	''' analog of .join() method'''
+	result = ''
+	for elem in array:
+		result += (elem + separator)
+	return result
