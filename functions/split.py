@@ -5,8 +5,7 @@ def split(string, pattern=' '):
 		while pattern in string:	
 			index = string.find(pattern)	
 			array.append(string[:index])
-			if pattern in string:
-				string = string[index + len(pattern):]
+			string = string[index + len(pattern):]
 			if pattern not in string:
 				array.append(string)	
 			index = None
